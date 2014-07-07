@@ -4,20 +4,25 @@
 	(c) 2013 LogMeIn, Inc.
 -->
 
+
 <!DOCTYPE html>
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
+
 <head>
+
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<title>Mantracourt Xively Feed Visualization Demo</title>
 
+
 	<link type="text/css" rel="stylesheet" href="css/normalize.css" />
 	<link type="text/css" rel="stylesheet" href="css/foundation.min.css" />
 	<link type="text/css" rel="stylesheet" href="css/rickshaw.min.css">
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.min.css" type="text/css" media="all" />
+
 
 	<style type="text/css">
 		body, html {
@@ -27,14 +32,17 @@
 			background: #666 url(img/loading.gif) center center no-repeat;
 		}
 
+
 		.hidden {
 			display: none;
 		}
+
 
 		#xivelyContent {
 			background: #fff;
 			box-shadow: inset 0px 0px 100px #f0f0f0;
 		}
+
 
 			.graphWrapper {
 				-moz-box-shadow:inset 0px 0px 50px 25px #ffffff;
@@ -55,6 +63,7 @@
 			}
 	</style>
 
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	<script src="js/custom.modernizr.js"></script>
@@ -62,8 +71,10 @@
 	<script src="js/d3.v2.js"></script>
 	<script src="js/rickshaw.min.js"></script>
 
+
 </head>
 <body>
+
 
 	<!-- Header -->
 	<div style="background: #101C24;">
@@ -107,8 +118,8 @@
 	</div>
 	<!-- Page Content -->
 	<div id="xivelyContent" style="position: relative;">
-		<a href="https://github.com/xively/channel-viz" class="hide-for-medium hide-for-small"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-		<div id="welcome">
+		<a href="https://github.com/xively/channel-viz" class="hide-for-medium hide-for-small"></a>
+		&nbsp;<div id="welcome">
 			<div class="row">
 				<div class="large-1 columns">&nbsp;</div>
 				<div class="large-10 columns text-center">
@@ -173,6 +184,7 @@
 					<h2 class="subheader" style="text-align: center;">Your API key is invalid!</h2>
 					<p>Please try again or generate a new key on Xively. It is important to keep in mind that this API key must be a global API key in order to work in this example. Using an application-specific API key will cause this example to malfunction.</p>
 
+
 					<a href="#" data-reveal-id="exampleModal" class="openStart radius secondary button expand">Ready When You Are...</a>
 					<br/><br/><br/>
 				</div>
@@ -234,6 +246,7 @@
 				<div class="row title">
 					<div class="large-12 columns">
 						<h2 class="subheader value">Loading Feed Data...</h2>
+
 
 						<div class="alert alert-box no-info">
 							Sorry, this feed could not be found.
@@ -347,28 +360,21 @@
 		</div>
 	</div>
 
+
 	<!-- Footer -->
 	<div style="background: #0D1B23;">
 		<div style="padding: 15px;">
 			<div class="row">
-				<div class="large-8 columns" style="color: rgb(81, 98, 111); padding-top: 10px; padding-bottom: 10px;">
-					<small>
-						This page was created with open-source tools, and uses data from <a style="font-weight: bold; color: rgb(81, 98, 111);" href="https://xively.com">Xively</a>. Read the <a style="font-weight: bold; color: rgb(81, 98, 111);" href="#">Tutorial (coming soon)</a> on how to make your own.
-					</small>
-				</div>
-				<div class="large-4 columns" style="color: rgb(81, 98, 111); padding-top: 10px; padding-bottom: 10px;">
-					<small>
-						<a style="color: rgb(81, 98, 111);" href="https://github.com/xively/channel-viz/blob/master/LICENSE.md">This library is Open Source, under the BSD 3-Clause license.</a>
-					</small>
-				</div>
-			</div>
+				&nbsp;</div>
 		</div>
 	</div>
+
 
 	<!-- Modals -->
 	<div id="loadingData" class="reveal-modal small text-center">
 		<br/><br/><h2 class="subheader">Loading...</h2><br/><br/>
 	</div>
+
 
 	<script>
 		document.write('<script src=' +
@@ -376,8 +382,10 @@
 		'.js><\/script>')
 	</script>
 
+
 	<script src="js/foundation.min.js"></script>
 	<script src="follows.js"></script>
+
 
 </body>
 </html>
